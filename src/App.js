@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import DailyLeetCodeQuestions from './components/DailyLeetCodeQuestions';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="App" style={{
+      backgroundColor: '#F3F3F3',
+      minHeight: '100vh',
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      fontFamily: 'Arial, sans-serif',
+    }}>
+      <header style={{
+        width: '100%',
+        backgroundColor: '#2D333B',
+        color: 'white',
+        textAlign: 'center',
+        padding: '15px 0',
+        marginBottom: '20px',
+      }}>
+        <h1 style={{ margin: 0, fontSize: '24px' }}>LeetCode Daily Challenge</h1>
       </header>
+      <main style={{ width: '100%', maxWidth: '400px' }}>
+        <DailyLeetCodeQuestions />
+      </main>
     </div>
   );
 }
