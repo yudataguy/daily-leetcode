@@ -9,7 +9,7 @@ const DailyLeetCodeQuestions = () => {
 
   const fetchQuestions = async () => {
     try {
-      const response = await fetch('/defaultSet.json');
+      const response = await fetch('/daily-leetcode/defaultSet.json');
       const data = await response.json();
       selectRandomQuestions(data);
     } catch (error) {
