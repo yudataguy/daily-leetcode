@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/daily-leetcode/static/css/main.e6c13ad2.css",
+    "main.js": "/daily-leetcode/static/js/main.390d6fbe.js",
+    "static/js/453.787b75b0.chunk.js": "/daily-leetcode/static/js/453.787b75b0.chunk.js",
+    "index.html": "/daily-leetcode/index.html",
+    "main.e6c13ad2.css.map": "/daily-leetcode/static/css/main.e6c13ad2.css.map",
+    "main.390d6fbe.js.map": "/daily-leetcode/static/js/main.390d6fbe.js.map",
+    "453.787b75b0.chunk.js.map": "/daily-leetcode/static/js/453.787b75b0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.390d6fbe.js"
+  ]
+}
